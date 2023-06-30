@@ -1,0 +1,42 @@
+nav {
+    background-color: red;
+    color: white;
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+nav li a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.avatar-ctn {
+    background-color: orange;
+    text-align: center;
+}
+
+.avatar {
+    width: 65%;
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+}
